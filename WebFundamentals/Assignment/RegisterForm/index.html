@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <script src="javascript/function.js"></script>
+    <title>Student Entry</title>
+</head>
+<body>
+  <h1 id="head">Student Entry</h1>
+    <form>
+        <div class="container">
+          <label for="code"><b>Code</b></label>
+          <input type="text" placeholder="Student Code" name="code" id="code" required>
+      
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Student Name" name="name" id="name" required>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Email" name="email" id="email">
+
+          <label for="dob"><b>Date Of Birth</b></label>
+          <input type="date" placeholder="mm/dd/yyyy" name="dob" id="dob" required>
+
+          <label for="phone"><b>Phone</b></label>
+          <input type="number" placeholder="Student Phone" name="phone" id="phone">
+
+          <label for="idcard"><b>National Registeration Card</b></label>
+          <input type="text" placeholder="Student NRC" name="idcard" id="idcard" required>
+
+          <label for="father"><b>Father Name</b></label>
+          <input type="text" placeholder="Father Name" name="father" id="father">
+
+          <label for="address"><b>Address</b></label>
+          <input type="text" name="address" id="address">
+
+          <label for="batch"><b>Batch Name</b></label>
+          <select name="batch" id="batch">
+            <option value="batch1">JWDBatch1</option>
+            <option value="batch2">JWDBatch2</option>
+            <option value="batch3">JWDBatch3</option>
+          </select>
+      
+          <button type="submit" class="registerbtn" onclick="register()">Register</button>
+          <button type="" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+</body>
+</html>
