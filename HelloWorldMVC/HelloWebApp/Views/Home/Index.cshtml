@@ -1,0 +1,17 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<head>
+    <style>
+        body{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p>Hello, this is p tag.</p>
+    <a href="/example/fullname">Who am I?</a>
+    <a asp-controller="example" asp-action="Sum">got to SUM</a>
+    <a href="/home/index">Home</a>
+    <a asp-controller="register" asp-action="">entry form</a>
+</body>

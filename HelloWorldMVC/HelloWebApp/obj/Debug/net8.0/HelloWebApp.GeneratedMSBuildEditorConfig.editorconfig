@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HelloWebApp
+build_property.RootNamespace = HelloWebApp
+build_property.ProjectDir = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\HelloWorldMVC\HelloWebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\HelloWorldMVC\HelloWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Example/FullName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxGdWxsTmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Example/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Example/Send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxTZW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Example/Sum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXBsZVxTdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Home/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Register/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Register/Entry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRW50cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Register/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/HelloWorldMVC/HelloWebApp/Views/Register/Send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcU2VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

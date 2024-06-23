@@ -1,0 +1,66 @@
+<script>
+    function fillOnLoad() {
+    if ('@ViewData["selectedCurrency"]' != "")
+    {
+            document.getElementById("selSelectedCurrency").value = @ViewData["selectedCurrency"];
+    }
+    if ('@ViewData["amount"]' > 0) {
+            document.getElementById("txtAmount").value = '@ViewData["InputedAmount"]';
+        }
+    }
+    function checkSelectedCurrency(event)
+    {
+        var selectedCurrency = document.getElementById("selSelectedCurrency").value;
+        if(selectedCurrency == "" || selectedCurrency == null)
+        {
+            event.preventDefault();
+            alert("Invalid Currency Convertion.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+<body onload="fillOnLoad()">
+    <div>
+        <form action="/currencyConverter/ConverterV2" method="post" onsubmit="return checkSelectedCurrency(event);">
+            <h1>Currency Converter V1</h1>
+            <table>
+                <tr>
+                    <td>
+                        <label>Choose Currency:</label>
+                    </td>
+                    <td>
+                        <select name="selectedCurrency" id="selSelectedCurrency">
+                            <option value="">--SELECT ONE--</option>
+                            <option value="usd">USD</option>
+                            <option value="sdg">Singapore Dollar</option>
+                            <option value="baht">Thai Baht</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Amount:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="amount" id="txtAmount">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Result(MMK)</label>
+                    </td>
+                    <td>
+                        <input type="text" value="@ViewData["result"]" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Convert">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>

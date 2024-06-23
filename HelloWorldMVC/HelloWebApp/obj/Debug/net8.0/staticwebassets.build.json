@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "AmztTPRR459Ntc0j0GcH3XzKA6VzHyMNqllFPTlgcMY=",
+  "Source": "HelloWebApp",
+  "BasePath": "_content/HelloWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloWebApp\\wwwroot",
+      "Source": "HelloWebApp",
+      "ContentRoot": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\HelloWorldMVC\\HelloWebApp\\wwwroot\\",
+      "BasePath": "_content/HelloWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\HelloWorldMVC\\HelloWebApp\\wwwroot\\files\\Term Project.pdf",
+      "SourceId": "HelloWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\HelloWorldMVC\\HelloWebApp\\wwwroot\\",
+      "BasePath": "_content/HelloWebApp",
+      "RelativePath": "files/Term Project.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Term Project.pdf"
+    }
+  ]
+}

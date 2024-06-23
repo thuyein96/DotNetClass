@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\HelloWorldMVC\\HelloWebApp\\wwwroot\\files\\Term Project.pdf",
+      "PackagePath": "staticwebassets\\files\\Term Project.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HelloWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HelloWebApp.props",
+      "PackagePath": "build\\HelloWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HelloWebApp.props",
+      "PackagePath": "buildMultiTargeting\\HelloWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HelloWebApp.props",
+      "PackagePath": "buildTransitive\\HelloWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
