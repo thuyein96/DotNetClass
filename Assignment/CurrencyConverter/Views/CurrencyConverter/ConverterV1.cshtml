@@ -1,0 +1,40 @@
+<div>
+    <form action="/CurrencyConverter/ConverterV1" method="post">
+        <h1>Currency Converter V1</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Choose Currency:</label>
+                </td>
+                <td>
+                    <select name="selectedCurrency">
+                        <option value="usd">USD</option>
+                        <option value="sdg">Singapore Dollar</option>
+                        <option value="baht">Thai Baht</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Amount:</label>
+                </td>
+                <td>
+                    <input type="text" name="amount">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Result(MMK)</label>
+                </td>
+                <td>
+                    <input type="text" value="@ViewData["result"]" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="Convert">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

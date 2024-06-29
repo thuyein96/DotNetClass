@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1 id="head">Register Form</h1>
+    <form id="registerForm">
+      <div class="container">
+        <div>
+          <label for="nameId"><b>Name</b></label>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="nameId"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="emailId"><b>Email</b></label>
+          <input type="email" placeholder="Email" name="email" id="emailId" />
+        </div>
+
+        <div>
+          <label for="phoneId"><b>Phone</b></label>
+          <input type="number" placeholder="Phone" name="phone" id="phoneId" />
+        </div>
+
+        <div>
+          <label for="passwordId"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="passwordId"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="password2Id"><b>Confirm Password</b></label>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password2"
+            id="password2Id"
+            required
+          />
+        </div>
+
+        <div>
+          <label><b>Gender</b></label
+          ><br />
+          <input 
+            type="radio"
+            name="gender"
+            value="male"
+            id="maleId" 
+            required 
+          />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            id="femaleId"
+            required
+          />
+          <label for="female">Female</label><br /><br />
+        </div>
+
+        <div>
+          <label for="dobId"><b>Date Of Birth</b></label>
+          <input
+            type="date"
+            placeholder="mm/dd/yyyy"
+            name="dob"
+            id="dobId"
+            required
+          />
+        </div>
+
+        <label for="addressId"><b>Address</b></label>
+        <input type="text" name="address" id="addressId" />
+
+        <label for="cityId"><b>City</b></label>
+        <select name="city" id="cityId">
+          <option value="">--Choose City--</option>
+          <option value="ygn">Yangon</option>
+          <option value="mdy">Mandalay</option>
+          <option value="npw">NayPyiDaw</option>
+        </select>
+
+        <button type="submit" class="registerbtn">Register</button>
+
+        <div
+          id="successMessage"
+          style="display: none; color: black; text-align: center"
+        ></div>
+      </div>
+    </form>
+
+    <script>
+      document
+        .getElementById("registerForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var email = document.getElementById("emailId").value;
+          var successMessage = document.getElementById("successMessage");
+          successMessage.textContent =
+            "You are successfully register with " + email + " email address";
+          successMessage.style.display = "block";
+        });
+
+      function fillOnLoad() {
+        if ('@ViewData["name"]' != "") {
+          document.getElementById("nameId").value = '@ViewData["name"]';
+        }
+        if ('@ViewData["email"]' != "") {
+          document.getElementById("emaiId").value = '@ViewData["email"]';
+        }
+        if ('@ViewData["phone"]' != "") {
+          document.getElementById("phoneId").value = '@ViewData["phone"]';
+        }
+        if ('@ViewData["password"]' != "") {
+          document.getElementById("passwordId").value = '@ViewData["password"]';
+        }
+        if ('@ViewData["password2"]' != "") {
+          document.getElementById("password2Id").value =
+            '@ViewData["password2"]';
+        }
+        if ('@ViewData["dob"]' != "") {
+          document.getElementById("dobId").value = '@ViewData["dob"]';
+        }
+        if ('@ViewData["address"]' != "") {
+          document.getElementById("addressId").value = '@ViewData["address"]';
+        }
+        if ('@ViewData["city"]' != "") {
+          document.getElementById("cityId").value = '@ViewData["city"]';
+        }
+      }
+    </script>
+  </body>
+</html>

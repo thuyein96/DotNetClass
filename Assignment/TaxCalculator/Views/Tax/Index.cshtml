@@ -1,0 +1,83 @@
+﻿@model TaxCalculator.ViewModels.TaxViewModel
+@{
+    ViewData["Title"] = "Tax";
+}
+
+<link rel="stylesheet" href="~/css/stylesheet.css" />
+<div>
+    <h1 id="head">Income Tax Calculator</h1>
+    <form asp-action="Index" asp-controller="Tax" method="post">
+        <div class="container">
+            <div>
+                <label><b>Income</b></label>
+                <input type="number"
+                       name="Income"
+                       value="@Model.Income"
+                       placeholder="Income"
+                       required />
+            </div>
+
+            <div>
+                <input type="checkbox" name="Father" value="true" (@Model.Father ? "checked" : "")>
+                <label>Father</label>
+                <input type="checkbox" name="Mother" value="true" (@Model.Mother ? "checked" : "")>
+                <label>Mother</label>
+            </div>
+
+            <div id="marriedId">
+                <label><b>Married</b></label><br />
+                <input type="radio"
+                       name="IsMarried"
+                       value="true"
+                       id="yesId"
+                       required @(Model.IsMarried ? "checked" : "") />
+                <label>Yes</label>
+                <input type="radio"
+                       name="IsMarried"
+                       value="false"
+                       id="noId"
+                       required @(Model.IsMarried ? "" : "checked") />
+                <label>No</label><br /><br />
+            </div>
+
+            <div id="childId" style="display: none;">
+                <label><b>Children</b></label>
+                <input type="text"
+                       name="Children"
+                       placeholder="Children"
+                       value="@Model.Children"
+                       required />
+            </div>
+
+            <div>
+                <label><b>After Tax</b></label>
+                <input type="number"
+                       name="AfterTax"
+                       value="@Model.AfterTax"
+                       readonly />
+            </div>
+
+            <button class="btn btn-primary mt-1" type="submit">Calculate</button>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("yesId").addEventListener("change", function () {
+            var childrenDiv = document.getElementById("childId");
+            if (this.checked) {
+                childrenDiv.style.display = "block";
+            } else {
+                childrenDiv.style.display = "none";
+            }
+        });
+
+        document.getElementById("noId").addEventListener("change", function () {
+            var childrenDiv = document.getElementById("childId");
+            if (this.checked) {
+                childrenDiv.style.display = "none";
+            }
+        });
+
+    </script>
+</div>
+
