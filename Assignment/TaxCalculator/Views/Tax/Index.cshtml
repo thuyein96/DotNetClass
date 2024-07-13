@@ -30,17 +30,17 @@
                        name="IsMarried"
                        value="true"
                        id="yesId"
-                       required @(Model.IsMarried ? "checked" : "") />
+                       required (@Model.IsMarried ? "checked" : "") />
                 <label>Yes</label>
                 <input type="radio"
                        name="IsMarried"
                        value="false"
                        id="noId"
-                       required @(Model.IsMarried ? "" : "checked") />
+                       required (@Model.IsMarried ? "" : "checked") />
                 <label>No</label><br /><br />
             </div>
 
-            <div id="childId" style="display: none;">
+            <div id="childId" style="display">
                 <label><b>Children</b></label>
                 <input type="text"
                        name="Children"
@@ -52,8 +52,8 @@
             <div>
                 <label><b>After Tax</b></label>
                 <input type="number"
-                       name="AfterTax"
-                       value="@Model.AfterTax"
+                       name="Tax"
+                       value="@Model.Tax"
                        readonly />
             </div>
 

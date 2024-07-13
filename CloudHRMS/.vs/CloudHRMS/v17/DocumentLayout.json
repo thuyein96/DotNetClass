@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EWADB4\\CloudHRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\attendancepolicy\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\attendancepolicy\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\attendancepolicy\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\attendancepolicy\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\attendancepolicy\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\attendancepolicy\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\controllers\\attendancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\controllers\\attendancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\viewmodels\\attendancepolicyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\viewmodels\\attendancepolicyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\entities\\attendancepolicyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\entities\\attendancepolicyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\department\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\department\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\dao\\cloudhrmsapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\dao\\cloudhrmsapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\migrations\\cloudhrmsapplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\migrations\\cloudhrmsapplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\viewmodels\\positionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\viewmodels\\positionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\entities\\departmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\entities\\departmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\models\\entities\\positionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\models\\entities\\positionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\migrations\\20240713080547_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\migrations\\20240713080547_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|d:\\ewadb4\\cloudhrms\\cloudhrms\\cloudhrms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C579D0A4-B8CD-4F0A-ABB4-46DBAFAC100B}|CloudHRMS\\CloudHRMS.csproj|solutionrelative:cloudhrms\\cloudhrms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendancePolicyViewModel.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\AttendancePolicyViewModel.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\ViewModels\\AttendancePolicyViewModel.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\AttendancePolicyViewModel.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\ViewModels\\AttendancePolicyViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:02:13.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendancePolicyEntity.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\AttendancePolicyEntity.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\Entities\\AttendancePolicyEntity.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\AttendancePolicyEntity.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\Entities\\AttendancePolicyEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:59:55.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\AttendancePolicy\\Edit.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\Edit.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\AttendancePolicy\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T10:28:56.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\List.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\AttendancePolicy\\List.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\List.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\AttendancePolicy\\List.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T10:35:39.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\Entry.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\AttendancePolicy\\Entry.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\AttendancePolicy\\Entry.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\AttendancePolicy\\Entry.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T10:46:49.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttendancePolicyController.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\AttendancePolicyController.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Controllers\\AttendancePolicyController.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\AttendancePolicyController.cs",
+              "RelativeToolTip": "CloudHRMS\\Controllers\\AttendancePolicyController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T10:08:48.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:22:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "CloudHRMS\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAADsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:16:45.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\Entry.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\Department\\Entry.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\Entry.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\Department\\Entry.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:16:51.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADEAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:20:10.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentEntity.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\DepartmentEntity.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\Entities\\DepartmentEntity.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\DepartmentEntity.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\Entities\\DepartmentEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:20:52.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\Entities\\BaseEntity.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T09:07:02.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:20:00.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentViewModel.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\ViewModels\\DepartmentViewModel.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\ViewModels\\DepartmentViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:30:07.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:20:05.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\List.cshtml",
+              "RelativeDocumentMoniker": "CloudHRMS\\Views\\Department\\List.cshtml",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Views\\Department\\List.cshtml",
+              "RelativeToolTip": "CloudHRMS\\Views\\Department\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:25:16.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CloudHRMS",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\CloudHRMS.csproj",
+              "RelativeDocumentMoniker": "CloudHRMS\\CloudHRMS.csproj",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\CloudHRMS.csproj",
+              "RelativeToolTip": "CloudHRMS\\CloudHRMS.csproj",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T07:46:33.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 82,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CloudHRMSApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\DAO\\CloudHRMSApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\DAO\\CloudHRMSApplicationDbContext.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\DAO\\CloudHRMSApplicationDbContext.cs",
+              "RelativeToolTip": "CloudHRMS\\DAO\\CloudHRMSApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:06:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CloudHRMSApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Migrations\\CloudHRMSApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Migrations\\CloudHRMSApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Migrations\\CloudHRMSApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CloudHRMS\\Migrations\\CloudHRMSApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:12:48.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PositionViewModel.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\PositionViewModel.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\ViewModels\\PositionViewModel.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\ViewModels\\PositionViewModel.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\ViewModels\\PositionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:30:14.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PositionEntity.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\PositionEntity.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Models\\Entities\\PositionEntity.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Models\\Entities\\PositionEntity.cs",
+              "RelativeToolTip": "CloudHRMS\\Models\\Entities\\PositionEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:31:26.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Controllers\\PositionController.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "CloudHRMS\\Controllers\\PositionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:16:49.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240713080547_Init.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Migrations\\20240713080547_Init.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Migrations\\20240713080547_Init.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Migrations\\20240713080547_Init.cs",
+              "RelativeToolTip": "CloudHRMS\\Migrations\\20240713080547_Init.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:05:47.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Program.cs",
+              "RelativeDocumentMoniker": "CloudHRMS\\Program.cs",
+              "ToolTip": "D:\\EWADB4\\CloudHRMS\\CloudHRMS\\Program.cs",
+              "RelativeToolTip": "CloudHRMS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:12:04.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

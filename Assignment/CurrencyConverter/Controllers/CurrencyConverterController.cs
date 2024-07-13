@@ -68,7 +68,7 @@ namespace WorkOut.Controllers
                 switch (selectedCurrency2)
                 {
                     case "usd": ViewData["result"] = amount * 0.027; break;
-                    case "sdg": ViewData["result"] = amount; break;
+                    case "sdg": ViewData["result"] = amount / 27.09; break;
                     case "baht": ViewData["result"] = amount * 0.037; break;
                     default: ViewData["result"] = "Nothing"; break;
                 }

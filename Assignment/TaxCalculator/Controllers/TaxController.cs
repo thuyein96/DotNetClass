@@ -33,11 +33,11 @@ namespace TaxCalculator.Controllers
                 }
 
                 var taxAmount = incomeBeforeTax * 0.02m;
-                taxinfo.AfterTax = incomeBeforeTax - taxAmount;
+                taxinfo.Tax =  taxAmount;
             }
             else
             {
-                taxinfo.AfterTax = incomeBeforeTax;
+                taxinfo.Tax = incomeBeforeTax;
             }
             return View(taxinfo);
         }

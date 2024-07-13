@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\webregisterform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\webregisterform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\webregisterform\\viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|solutionrelative:viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\webregisterform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46774B3D-BF5F-4F68-8B48-4FA36708B0BD}|WebRegisterForm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\ViewModels\\PersonViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PersonViewModel.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\ViewModels\\PersonViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PersonViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:25:27.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwBYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:23:56.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T11:22:31.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\WebRegisterForm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T11:06:50.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

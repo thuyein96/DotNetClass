@@ -9,23 +9,23 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WorkOut
 build_property.RootNamespace = WorkOut
-build_property.ProjectDir = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\WorkOut\
+build_property.ProjectDir = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\Assignment\CurrencyConverter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\WorkOut
+build_property.MSBuildProjectDirectory = C:\Users\thuye\OneDrive\Documents\GitHub\EWADB4\Assignment\CurrencyConverter
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/WorkOut/Views/CurrencyConverter/ConverterV1.cshtml]
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/Assignment/CurrencyConverter/Views/CurrencyConverter/ConverterV1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lDb252ZXJ0ZXJcQ29udmVydGVyVjEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/WorkOut/Views/CurrencyConverter/ConverterV2.cshtml]
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/Assignment/CurrencyConverter/Views/CurrencyConverter/ConverterV2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lDb252ZXJ0ZXJcQ29udmVydGVyVjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/WorkOut/Views/Home/Index.cshtml]
+[C:/Users/thuye/OneDrive/Documents/GitHub/EWADB4/Assignment/CurrencyConverter/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

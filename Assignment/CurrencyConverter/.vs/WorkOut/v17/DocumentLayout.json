@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\",
+  "WorkspaceRootPath": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\workout\\views\\currencyconverter\\converterv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|solutionrelative:views\\currencyconverter\\converterv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\workout\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\currencyconverter\\controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|solutionrelative:controllers\\currencyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\workout\\views\\currencyconverter\\converterv1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\currencyconverter\\views\\currencyconverter\\converterv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|solutionrelative:views\\currencyconverter\\converterv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\assignment\\currencyconverter\\views\\currencyconverter\\converterv1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96FABCF3-5F4E-4CF0-B837-80D43A01CFC9}|WorkOut.csproj|solutionrelative:views\\currencyconverter\\converterv1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 262,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConverterV2.cshtml",
-              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Views\\CurrencyConverter\\ConverterV2.cshtml",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Views\\CurrencyConverter\\ConverterV2.cshtml",
               "RelativeDocumentMoniker": "Views\\CurrencyConverter\\ConverterV2.cshtml",
-              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Views\\CurrencyConverter\\ConverterV2.cshtml",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Views\\CurrencyConverter\\ConverterV2.cshtml",
               "RelativeToolTip": "Views\\CurrencyConverter\\ConverterV2.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwCAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-22T16:03:41.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CurrencyConverterController.cs",
-              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Controllers\\CurrencyConverterController.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
               "RelativeDocumentMoniker": "Controllers\\CurrencyConverterController.cs",
-              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Controllers\\CurrencyConverterController.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Controllers\\CurrencyConverterController.cs",
               "RelativeToolTip": "Controllers\\CurrencyConverterController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAwwCoAAAAQAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAADsAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T16:00:15.536Z",
               "EditorCaption": ""
@@ -66,9 +66,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ConverterV1.cshtml",
-              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Views\\CurrencyConverter\\ConverterV1.cshtml",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Views\\CurrencyConverter\\ConverterV1.cshtml",
               "RelativeDocumentMoniker": "Views\\CurrencyConverter\\ConverterV1.cshtml",
-              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\WorkOut\\Views\\CurrencyConverter\\ConverterV1.cshtml",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\Assignment\\CurrencyConverter\\Views\\CurrencyConverter\\ConverterV1.cshtml",
               "RelativeToolTip": "Views\\CurrencyConverter\\ConverterV1.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

@@ -1,0 +1,35 @@
+<form action="/home/register" method="post">
+  <div class="mb-3">
+    <label for="form-label">Id</label>
+    <input type="text" class="form-control" name="Id" required>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">Name</label>
+    <input type="text" class="form-control" name="Name" required>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">Email</label>
+    <input type="email" class="form-control" name="Email" required>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">Country</label>
+    <select name="HomeAddress.Country" class="form-control">
+        <option value="Myanmar">Myanmar</option>
+        <option value="Thailand">Thailand</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">City</label>
+    <input type="text" class="form-control" name="HomeAddress.City" required>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">Township</label>
+    <input type="text" class="form-control" name="HomeAddress.Township" required>
+  </div>
+  <div class="mb-3">
+    <label for="form-label">Zip Code</label>
+    <input type="text" class="form-control" name="HomeAddress.ZipCode" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+    <h1 class="form-control">@ViewData["Info"]</h1>
+</form>

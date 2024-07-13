@@ -7,6 +7,6 @@ namespace TaxCalculator.ViewModels
         public string Mother { get; set; }
         public bool IsMarried { get; set; }
         public int Children { get; set; }
-        public decimal AfterTax { get; set; }
+        public decimal Tax { get; set; }
     }
 }
