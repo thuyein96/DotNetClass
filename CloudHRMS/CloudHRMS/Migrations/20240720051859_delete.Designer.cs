@@ -4,6 +4,7 @@ using CloudHRMS.DAO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CloudHRMS.Migrations
 {
     [DbContext(typeof(CloudHRMSApplicationDbContext))]
-    partial class CloudHRMSApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240720051859_delete")]
+    partial class delete
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -238,51 +241,6 @@ namespace CloudHRMS.Migrations
                     b.ToTable("Position");
                 });
 
-            modelBuilder.Entity("CloudHRMS.Models.Entities.ShiftEntity", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("AttendancePolicyId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<TimeSpan>("EarlyOutBefore")
-                        .HasColumnType("time");
-
-                    b.Property<TimeSpan>("InTime")
-                        .HasColumnType("time");
-
-                    b.Property<string>("IpAddress")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsInActive")
-                        .HasColumnType("bit");
-
-                    b.Property<TimeSpan>("LateAfter")
-                        .HasColumnType("time");
-
-                    b.Property<DateTime>("ModifiedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<TimeSpan>("OutTime")
-                        .HasColumnType("time");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AttendancePolicyId");
-
-                    b.ToTable("Shift");
-                });
-
             modelBuilder.Entity("CloudHRMS.Models.Entities.EmployeeEntity", b =>
                 {
                     b.HasOne("CloudHRMS.Models.Entities.DepartmentEntity", "Department")
@@ -300,17 +258,6 @@ namespace CloudHRMS.Migrations
                     b.Navigation("Department");
 
                     b.Navigation("Position");
-                });
-
-            modelBuilder.Entity("CloudHRMS.Models.Entities.ShiftEntity", b =>
-                {
-                    b.HasOne("CloudHRMS.Models.Entities.AttendancePolicyEntity", "AttendancePolicy")
-                        .WithMany()
-                        .HasForeignKey("AttendancePolicyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AttendancePolicy");
                 });
 #pragma warning restore 612, 618
         }

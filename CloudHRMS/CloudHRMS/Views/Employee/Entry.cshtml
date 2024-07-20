@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Employee";
+}
+<h3>Employee Entry</h3>
+@{
+    var info = ViewData["Info"];
+}
+@if (info != null)
+{
+    if (Convert.ToBoolean(ViewData["Status"]))
+    {
+        <div class="alert alert-success" role="alert">
+            @info
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">
+            @info
+        </div>
+    }
+}
+<form action="/employee/entry" method="post">
+    <div class="mb-3">
+        <label class="form-label">Code:</label>
+        <input type="text" class="form-control" name="Code" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Name:</label>
+        <input type="text" class="form-control" name="Name" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" name="Email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Gender</label><br>
+        <label><input type="radio" name="Gender" value="f" required> Female</label>
+        <label><input type="radio" name="Gender" value="m" required> Male</label>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DOB</label>
+        <input type="date" class="form-control" name="DOB" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DOE</label>
+        <input type="date" class="form-control" name="DOE" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DOR</label>
+        <input type="date" class="form-control" name="DOR">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input type="text" class="form-control" name="Address">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Basic Salary</label>
+        <input type="number" class="form-control" name="Basic Salary" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="text" class="form-control" name="Phone" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Position</label>
+        <select class="form-select" name="PositionId">
+            <option selected>Open this select menu</option>
+            @foreach(var position in ViewBag.Positions)
+            {
+                <option value="@position.Id">@position.Code</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Department</label>
+        <select class="form-select" name="DepartmentId">
+            <option selected>Open this select menu</option>
+            @foreach (var department in ViewBag.Departments)
+            {
+                <option value="@department.Id">@department.Code</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Entry</button>
+    <a href="/employee/list" class="btn btn-outline-primary">List</a>
+</form>

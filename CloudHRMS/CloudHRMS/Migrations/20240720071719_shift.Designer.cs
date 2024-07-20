@@ -4,6 +4,7 @@ using CloudHRMS.DAO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CloudHRMS.Migrations
 {
     [DbContext(typeof(CloudHRMSApplicationDbContext))]
-    partial class CloudHRMSApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240720071719_shift")]
+    partial class shift
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -243,12 +246,12 @@ namespace CloudHRMS.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("AttendancePolicyId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("DailyAttendanceId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<TimeSpan>("EarlyOutBefore")
                         .HasColumnType("time");
@@ -278,7 +281,7 @@ namespace CloudHRMS.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AttendancePolicyId");
+                    b.HasIndex("DailyAttendanceId");
 
                     b.ToTable("Shift");
                 });
@@ -304,13 +307,13 @@ namespace CloudHRMS.Migrations
 
             modelBuilder.Entity("CloudHRMS.Models.Entities.ShiftEntity", b =>
                 {
-                    b.HasOne("CloudHRMS.Models.Entities.AttendancePolicyEntity", "AttendancePolicy")
+                    b.HasOne("CloudHRMS.Models.Entities.DailyAttendanceEntity", "DailyAttendance")
                         .WithMany()
-                        .HasForeignKey("AttendancePolicyId")
+                        .HasForeignKey("DailyAttendanceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("AttendancePolicy");
+                    b.Navigation("DailyAttendance");
                 });
 #pragma warning restore 612, 618
         }

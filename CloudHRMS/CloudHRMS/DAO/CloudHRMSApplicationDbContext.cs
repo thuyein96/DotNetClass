@@ -1,4 +1,5 @@
 ﻿using CloudHRMS.Models.Entities;
+using CloudHRMS.Models.ViewModels;
 using Microsoft.EntityFrameworkCore;
 namespace CloudHRMS.DAO
 {
@@ -10,5 +11,8 @@ namespace CloudHRMS.DAO
         public DbSet<PositionEntity>   Positions { get; set; }
         public DbSet<DepartmentEntity> Departments { get; set; }
         public DbSet<AttendancePolicyEntity> AttendancePolicies { get; set; }
+        public DbSet<EmployeeEntity> Employees { get; set; }
+        public DbSet<DailyAttendanceEntity> DailyAttendances { get; set; }
+        public DbSet<ShiftEntity> Shifts { get; set; }
     }
 }
