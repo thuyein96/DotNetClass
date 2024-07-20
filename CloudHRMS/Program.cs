@@ -1,4 +1,7 @@
 using CloudHRMS.DAO;
+using CloudHRMS.Repositories.Domain;
+using CloudHRMS.Services;
+using CloudHRMS.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +12,8 @@ builder.Services.AddControllersWithViews();
 var config = builder.Configuration;
 // register CloudApplicationHRMSDbContext with ConnectionString from appsetting.json
 builder.Services.AddDbContext<CloudHRMSApplicationDbContext>(o => o.UseSqlServer(config.GetConnectionString("CloudHRMSConnectionString")));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); //register the unit of work for all repositories 
+builder.Services.AddTransient<IPositionService, PositionService>(); // register the position domain for CRUD process
 
 var app = builder.Build();
 

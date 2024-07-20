@@ -1,3 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model PositionViewModel
+@{
+    ViewData["Title"] = "Position";
 }
+<h3>Positon Entry</h3>
+@{
+    var info = ViewData["Info"];
+}
+@if (info != null)
+{
+    if (Convert.ToBoolean(ViewData["Status"]))
+    {
+        <div class="alert alert-success" role="alert">
+            @info
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">
+            @info
+        </div>
+    }
+}
+<form action="/position/entry" method="post">
+    <div class="mb-3">
+        <label class="form-label">Code:</label>
+        <input type="text" class="form-control" name="Code" required value="@Model.Code">
+    </div>
+    <div class="mb-3">
+        <label  class="form-label">Name:</label>
+        <input type="text" class="form-control" name="Name" required value="@Model.Name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Level</label>
+        <input type="number" class="form-control" name="Level" required value="@Model.Level">
+    </div>
+    <button type="submit" class="btn btn-primary">Entry</button>
+    <a href="/position/list" class="btn btn-outline-primary">List</a>
+</form>
