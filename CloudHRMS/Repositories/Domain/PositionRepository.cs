@@ -16,7 +16,7 @@ namespace CloudHRMS.Repositories.Domain
 
         public bool IsAlreadyExist(string Code, string Name)
         {
-            return _cloudHRMSApplicationDbContext.Positions.Where(w => (w.Code != Code || w.Name == Name) && !w.IsInActive).Any();
+            return _cloudHRMSApplicationDbContext.Positions.Where(w => (w.Code != Code && w.Name == Name) && !w.IsInActive).Any();
             
         }
         // code your custom implementation for position functions

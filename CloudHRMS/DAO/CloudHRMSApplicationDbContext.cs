@@ -15,5 +15,7 @@ namespace CloudHRMS.DAO
         public DbSet<DailyAttendanceEntity> DailyAttendances { get; set; }
         public DbSet<ShiftEntity> Shifts { get; set; }
         public DbSet<ShiftAssignEntity> ShiftAssigns { get; set; }
+        public DbSet<AttendanceMasterEntity> AttendanceMasterEntities { get; set; }
+        public DbSet<PayrollEntity> PayrollEntities { get; set; }
     }
 }

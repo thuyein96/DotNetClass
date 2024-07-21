@@ -104,7 +104,7 @@ namespace CloudHRMS.Controllers
                                                       BasicSalary = e.BasicSalary,
                                                       Phone = e.Phone,
                                                       DepartmentInfo = d.Code + "/" + d.Name,
-                                                      PositionInfo = d.Code + "/" + d.Name
+                                                      PositionInfo = p.Code + "/" + p.Name
                                                   }).ToList();
             
             return View(employees);

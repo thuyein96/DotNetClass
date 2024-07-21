@@ -64,11 +64,11 @@ namespace CloudHRMS.Controllers
             {
                 //Data Exchange from view Model to Entity
                 //ViewModels to Data Models
-                //var isAlreadyExist = _positionService.IsAlreadyExist(positionViewModel);
-                //if (isAlreadyExist)
-                //{
-                //    return View("Edit", positionViewModel);
-                //}
+                var isAlreadyExist = _positionService.IsAlreadyExist(positionViewModel);
+                if (isAlreadyExist)
+                {
+                    return View("Edit", positionViewModel);
+                }
                 _positionService.Update(positionViewModel);
                 TempData["Info"] = "Successfully update the record to the system.";
                 TempData["Status"] = true;

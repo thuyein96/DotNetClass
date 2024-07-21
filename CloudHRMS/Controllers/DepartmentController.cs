@@ -46,6 +46,7 @@ namespace CloudHRMS.Controllers
             IList<DepartmentViewModel> departments = _dbContext.Departments.Where(w => !w.IsInActive).Select(s=>new DepartmentViewModel
             {
                 Id = s.Id,
+                Code = s.Code,
                 Name = s.Name,
                 ExtensionPhone = s.ExtensionPhone
             }).ToList();
