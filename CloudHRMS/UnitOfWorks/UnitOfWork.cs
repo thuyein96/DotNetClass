@@ -32,6 +32,15 @@ namespace CloudHRMS.UnitOfWorks
             }
         }
 
+        private IEmployeeRepository _employeeRepository;
+        public IEmployeeRepository EmployeeRepository
+        {
+            get
+            {
+                return _employeeRepository = _employeeRepository ?? new EmployeeRepository(_cloudHRMSApplicationDbContext);
+            }
+        }
+
         public void Commit()
         {
             _cloudHRMSApplicationDbContext.SaveChanges();

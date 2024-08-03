@@ -1,75 +1,44 @@
 ﻿using CloudHRMS.DAO;
 using CloudHRMS.Models.Entities;
 using CloudHRMS.Models.ViewModels;
+using CloudHRMS.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace CloudHRMS.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly CloudHRMSApplicationDbContext _dbContext;
-        public EmployeeController(CloudHRMSApplicationDbContext dbContext)
+        private readonly IEmployeeService _employeeService;
+
+        public EmployeeController(IEmployeeService employeeService)
         {
-            _dbContext = dbContext;   
+            _employeeService = employeeService;
         }
 
-     
+
+        [Authorize(Roles = "HR")]
         public IActionResult Entry()
         {
-            bindPositionData();
-            bindDepartmentData();
+            ViewBag.Positions = _employeeService.bindPositionData();
+            ViewBag.Departmetns = _employeeService.bindDepartmentData();
             return View();
         }
-
-        private void bindDepartmentData()
-        {
-            IList<DepartmentViewModel> departments = _dbContext.Departments.Where(w => !w.IsInActive).Select(s =>
-            new DepartmentViewModel
-            {
-                Id = s.Id,
-                Code = s.Code + "/" + s.Name
-            }).ToList();
-            ViewBag.Departments = departments;
-        }
-
-        private void bindPositionData()
-        {
-            IList<PositionViewModel> positions = _dbContext.Positions.Where(w => !w.IsInActive).Select(s =>
-             new PositionViewModel
-             {
-                 Id = s.Id,
-                 Code = s.Code + "/" + s.Name
-             }).ToList();
-            ViewBag.Positions = positions;
-            
-        }
-
+        [Authorize(Roles = "HR")]
         [HttpPost]
-        public IActionResult Entry(EmployeeViewModel employeeViewModel)
+        public IActionResult Entry(EmployeeViewModel ui)
         {
             try
             {
-                EmployeeEntity employeeEntity = new EmployeeEntity()
+                var isAlreadyExist = _employeeService.IsAlreadyExist(ui);
+                if (isAlreadyExist)
                 {
-                    Id = Guid.NewGuid().ToString(),
-                    Code = employeeViewModel.Code,
-                    Name = employeeViewModel.Name,
-                    Email = employeeViewModel.Email,
-                    Gender = employeeViewModel.Gender,
-                    DOB = employeeViewModel.DOB,
-                    DOE = employeeViewModel.DOE,
-                    DOR = employeeViewModel.DOR,
-                    Address = employeeViewModel.Address,
-                    BasicSalary = employeeViewModel.BasicSalary,
-                    Phone = employeeViewModel.Phone,
-                    PositionId = employeeViewModel.PositionId,
-                    DepartmentId = employeeViewModel.DepartmentId,
-                    CreatedAt = DateTime.Now
-                };
-                _dbContext.Employees.Add(employeeEntity);
-                _dbContext.SaveChanges();
-                ViewData["Info"] = "Successfully save the record to the system.";
+                    ViewData["Info"] = "This Position code or name is already exist in the system.";
+                    ViewData["Status"] = false;
+                    return View(ui);
+                }
+                _employeeService.Create(ui);
+                ViewData["Info"] = "Successfully save the recrod to the system.";
                 ViewData["Status"] = true;
             }
             catch (Exception e)
@@ -77,61 +46,19 @@ namespace CloudHRMS.Controllers
                 ViewData["Info"] = "Error occur when the record save to the system." + e.Message;
                 ViewData["Status"] = false;
             }
-            bindPositionData();
-            bindDepartmentData();
+            ViewBag.Positions = _employeeService.bindPositionData();
+            ViewBag.Departments = _employeeService.bindDepartmentData();
             return View();
         }
 
-        public IActionResult List()
-        {
-            IList<EmployeeViewModel> employees = (from e in _dbContext.Employees
-                                                  join d in _dbContext.Departments
-                                                  on e.DepartmentId equals d.Id
-                                                  join p in _dbContext.Positions
-                                                  on e.PositionId equals p.Id
-                                                  where !e.IsInActive && !d.IsInActive && !p.IsInActive
-                                                  select new EmployeeViewModel
-                                                  {
-                                                      Id = e.Id,
-                                                      Code = e.Code,
-                                                      Name = e.Name,
-                                                      Email = e.Email,
-                                                      Gender = e.Gender,
-                                                      DOB = e.DOB,
-                                                      DOE = e.DOE,
-                                                      DOR = e.DOR,
-                                                      Address = e.Address,
-                                                      BasicSalary = e.BasicSalary,
-                                                      Phone = e.Phone,
-                                                      DepartmentInfo = d.Code + "/" + d.Name,
-                                                      PositionInfo = p.Code + "/" + p.Name
-                                                  }).ToList();
-            
-            return View(employees);
-        }
+        public IActionResult List() => View(_employeeService.GetAll());
 
+        [Authorize(Roles = "HR")]
         public IActionResult Edit(string id)
         {
-            EmployeeViewModel employeeView = _dbContext.Employees.Where(w => w.Id == id && !w.IsInActive).Select(s => new EmployeeViewModel
-            {
-                Id = s.Id,
-                Code = s.Code,
-                Name = s.Name,
-                Email = s.Email,
-                Gender = s.Gender,
-                DOB = s.DOB,
-                DOE = s.DOE,
-                DOR = s.DOR,
-                Address = s.Address,
-                BasicSalary = s.BasicSalary,
-                Phone = s.Phone,
-                DepartmentId = s.DepartmentId,
-                PositionId = s.PositionId,
-                CreatedOn = s.CreatedAt,
-                UpdatedOn = s.ModifiedAt
-            }).FirstOrDefault();
-            bindDepartmentData();
-            bindPositionData();
+            EmployeeViewModel employeeView = _employeeService.GetById(id);
+            _employeeService.bindDepartmentData();
+            _employeeService.bindPositionData();
             return View(employeeView);
         }
 
@@ -140,28 +67,16 @@ namespace CloudHRMS.Controllers
         {
             try
             {
-                EmployeeEntity employeeEntity = new EmployeeEntity()
+                //Data Exchange from view Model to Entity
+                //ViewModels to Data Models
+                var isAlreadyExist = _employeeService.IsAlreadyExist(employeeViewModel);
+                if (isAlreadyExist)
                 {
-                    Id = employeeViewModel.Id,
-                    Code = employeeViewModel.Code,
-                    Name = employeeViewModel.Name,
-                    Email = employeeViewModel.Email,
-                    Gender = employeeViewModel.Gender,
-                    DOB = employeeViewModel.DOB,
-                    DOE = employeeViewModel.DOE,
-                    DOR = employeeViewModel.DOR,
-                    Address = employeeViewModel?.Address,
-                    BasicSalary = employeeViewModel.BasicSalary,
-                    Phone = employeeViewModel?.Phone,
-                    PositionId = employeeViewModel.PositionId,
-                    DepartmentId = employeeViewModel.DepartmentId,
-                    ModifiedAt = DateTime.Now,
-                    CreatedAt = employeeViewModel.CreatedOn
-                };
-                _dbContext.Employees.Update(employeeEntity);
-                _dbContext.SaveChanges();
-                ViewData["Info"] = "Successfully update the record to the system.";
-                ViewData["Status"] = true;
+                    return View("Edit", employeeViewModel);
+                }
+                _employeeService.Update(employeeViewModel);
+                TempData["Info"] = "Successfully update the record to the system.";
+                TempData["Status"] = true;
             }
             catch (Exception e)
             {
@@ -175,14 +90,8 @@ namespace CloudHRMS.Controllers
         {
             try
             {
-                EmployeeEntity employeeEntity = _dbContext.Employees.Find(id);
-                if (employeeEntity != null)
-                {
-                    employeeEntity.IsInActive = true;
-                    _dbContext.Employees.Update(employeeEntity);
-                    _dbContext.SaveChanges();
-                    TempData["Info"] = "Delete success when delete the record.";
-                }
+                _employeeService.Delete(id);
+                TempData["Info"] = "Delete Successfully";
             }
             catch (Exception e)
             {

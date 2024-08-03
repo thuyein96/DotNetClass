@@ -14,7 +14,7 @@ namespace CloudHRMS.Models.Entities
         public DateTime? DOR { get; set; }
         public string? Address { get; set; }
         public decimal BasicSalary { get; set; }
-        public string? Phone { get; set; }
+        public string? ExtensionPhone { get; set; }
         public string PositionId { get; set; }//foreign key
         [ForeignKey(nameof(PositionId))]
         public virtual PositionEntity Position { get; set; }

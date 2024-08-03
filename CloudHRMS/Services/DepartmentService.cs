@@ -63,7 +63,7 @@ namespace CloudHRMS.Services
                 Id = s.Id,
                 Code = s.Code,
                 Name = s.Name,
-               ExtensionPhone=s.ExtensionPhone,
+                ExtensionPhone=s.ExtensionPhone,
                 CreatedOn = s.CreatedAt,
                 UpdatedOn = s.ModifiedAt
             }).FirstOrDefault();
@@ -71,7 +71,7 @@ namespace CloudHRMS.Services
 
         public bool IsAlreadyExist(DepartmentViewModel vm)
         {
-        return   _unitOfWork.PositionRepository.IsAlreadyExist(vm.Code, vm.Name);
+        return   _unitOfWork.DepartmentRepository.IsAlreadyExist(vm.Code, vm.Name);
         }
 
         public void Update(DepartmentViewModel vm)
