@@ -1,4 +1,4 @@
-﻿@{
+﻿﻿@{
     ViewData["Title"] = "Shift";
 }
 <h3>Shift Entry</h3>
@@ -22,35 +22,40 @@
 }
 <form action="/shift/entry" method="post">
     <div class="mb-3">
-        <label class="form-label">Name:</label>
+        <label class="form-label">Name</label>
         <input type="text" class="form-control" name="Name" required>
     </div>
     <div class="mb-3">
-        <label class="form-label">In Time:</label>
-        <input type="time" class="form-control" name="InTime" required value="hh:mm:ss">
+        <label class="form-label">In Time</label>
+        <input type="time" class="form-control" name="InTime" required>
     </div>
     <div class="mb-3">
-        <label class="form-label">Out Time:</label>
-        <input type="time" class="form-control" name="OutTime" required value="hh:mm:ss">
+        <label class="form-label">Out Time</label>
+        <input type="time" class="form-control" name="OutTime" required>
     </div>
     <div class="mb-3">
-        <label class="form-label">Late After:</label>
-        <input type="time" class="form-control" name="LateAfter" required value="hh:mm:ss">
+        <label class="form-label">Late After</label>
+        <input type="time" class="form-control" name="LateAfter" required>
     </div>
     <div class="mb-3">
-        <label class="form-label">Early Out Before:</label>
-        <input type="time" class="form-control" name="EarlyOutBefore" required value="hh:mm:ss">
+        <label class="form-label">Early Out Before</label>
+        <input type="time" class="form-control" name="EarlyOutBefore" required>
     </div>
+
+
     <div class="mb-3">
-        <label class="form-label">Attendance Policy</label>
+        <label class="form-label">AttendancePolicy</label>
         <select class="form-select" name="AttendancePolicyId">
-            <option selected>Open this select menu</option>
+            <option selected>Select AttendancePolicy</option>
             @foreach (var attendancepolicy in ViewBag.AttendancePolicies)
             {
                 <option value="@attendancepolicy.Id">@attendancepolicy.Name</option>
             }
         </select>
     </div>
+    
+   
+
     <button type="submit" class="btn btn-primary">Entry</button>
     <a href="/shift/list" class="btn btn-outline-primary">List</a>
-</form>
+</form> 

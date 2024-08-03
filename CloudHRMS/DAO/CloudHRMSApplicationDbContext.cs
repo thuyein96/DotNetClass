@@ -1,9 +1,10 @@
 ﻿using CloudHRMS.Models.Entities;
-using CloudHRMS.Models.ViewModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 namespace CloudHRMS.DAO
 {
-    public class CloudHRMSApplicationDbContext:DbContext
+    public class CloudHRMSApplicationDbContext:IdentityDbContext<IdentityUser, IdentityRole, string>
     {
         //Constructor changing to parent
         public CloudHRMSApplicationDbContext(DbContextOptions<CloudHRMSApplicationDbContext> options):base(options) {}

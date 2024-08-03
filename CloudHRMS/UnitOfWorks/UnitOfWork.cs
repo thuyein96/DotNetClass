@@ -22,6 +22,16 @@ namespace CloudHRMS.UnitOfWorks
             }
         }
 
+        //properties to create repository instance of class for Unit Of Work
+        private IDepartmentRepository _departmentRepository;
+        public IDepartmentRepository DepartmentRepository
+        {
+            get
+            {
+                return _departmentRepository = _departmentRepository ?? new DepartmentRepository(_cloudHRMSApplicationDbContext);
+            }
+        }
+
         public void Commit()
         {
             _cloudHRMSApplicationDbContext.SaveChanges();
