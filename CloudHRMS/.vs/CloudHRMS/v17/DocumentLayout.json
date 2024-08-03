@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\services\\dailyattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:services\\dailyattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\services\\idailyattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:services\\idailyattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\repositories\\domain\\dailyattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:repositories\\domain\\dailyattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|c:\\users\\thuye\\onedrive\\documents\\github\\ewadb4\\cloudhrms\\repositories\\domain\\idailyattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE5B630-7EEA-4B22-B40D-54A275D5FC10}|CloudHRMS.csproj|solutionrelative:repositories\\domain\\idailyattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:36:25.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "Services\\DepartmentService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:32:37.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DailyAttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\DailyAttendanceService.cs",
+              "RelativeDocumentMoniker": "Services\\DailyAttendanceService.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\DailyAttendanceService.cs",
+              "RelativeToolTip": "Services\\DailyAttendanceService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwGcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:52:09.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDailyAttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\IDailyAttendanceService.cs",
+              "RelativeDocumentMoniker": "Services\\IDailyAttendanceService.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Services\\IDailyAttendanceService.cs",
+              "RelativeToolTip": "Services\\IDailyAttendanceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:50:48.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:12:44.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWorks\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWorks\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:48:07.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwDAAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:48:06.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DailyAttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Repositories\\Domain\\DailyAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Domain\\DailyAttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Repositories\\Domain\\DailyAttendanceRepository.cs",
+              "RelativeToolTip": "Repositories\\Domain\\DailyAttendanceRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:44:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDailyAttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Repositories\\Domain\\IDailyAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Domain\\IDailyAttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\thuye\\OneDrive\\Documents\\GitHub\\EWADB4\\CloudHRMS\\Repositories\\Domain\\IDailyAttendanceRepository.cs",
+              "RelativeToolTip": "Repositories\\Domain\\IDailyAttendanceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T09:42:57.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

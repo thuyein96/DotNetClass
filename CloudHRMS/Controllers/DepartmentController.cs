@@ -11,9 +11,14 @@ namespace CloudHRMS.Controllers
 
         public DepartmentController(IDepartmentService departmentService)
         {
-            this._departmentService = departmentService;
+            _departmentService = departmentService;
         }
-        public IActionResult List() => View(_departmentService.GetAll());
+        public IActionResult List()
+        {
+            IEnumerable<DepartmentViewModel> departments = _departmentService.GetAll();
+            return View(departments);
+        }
+
         [Authorize(Roles = "HR")]
         public IActionResult Edit(string id)
         {

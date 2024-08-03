@@ -8,6 +8,7 @@ namespace CloudHRMS.UnitOfWorks
         IPositionRepository PositionRepository { get; }
         IDepartmentRepository DepartmentRepository { get; }
         IEmployeeRepository EmployeeRepository { get; }
+        IDailyAttendanceRepository DailyAttendanceRepository { get; }
         //Commit stages (insert, update, delete)
         void Commit();
         //Rollback transaction

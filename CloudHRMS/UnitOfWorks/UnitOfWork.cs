@@ -41,6 +41,15 @@ namespace CloudHRMS.UnitOfWorks
             }
         }
 
+        private IDailyAttendanceRepository _dailyAttendanceRepository;
+        public IDailyAttendanceRepository DailyAttendanceRepository
+        {
+            get
+            {
+                return _dailyAttendanceRepository = _dailyAttendanceRepository ?? new DailyAttendanceRepository(_cloudHRMSApplicationDbContext);
+            }
+        }
+
         public void Commit()
         {
             _cloudHRMSApplicationDbContext.SaveChanges();
